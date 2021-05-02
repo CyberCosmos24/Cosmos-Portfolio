@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(45, 102, 224);
+  }
+
+ul{
+  float: right;
+
+}
+ul li{
+  display: inline-block;
+
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #fff
+}
+ul li a:hover{
+  background-color: #fff;
+  color: #000
+}
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.title h1{
+  color:#fff;
+  font-size: 70px;
+}
+.project{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.project h1{
+  color:#fff;
+  font-size: 70px;
+}
+.button{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.btn{
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff
+}
+.btn:hover{
+  background-color: #fff;
+  color: #000
+}
