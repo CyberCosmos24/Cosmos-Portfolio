@@ -15,7 +15,7 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #e42019;
+    --clr-accent: #47f7f7;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -242,3 +242,17 @@ nav:hover{
   background-color: #fff;
   color: #000
 }
+
+ul{
+    float:right;
+    list-style-type: none;
+}
+ul li{
+display: inline-block;
+}
+ul li a{
+    color: black;
+    padding: 5px 20px;
+    border: 1px soild;
+} 
+
