@@ -1,4 +1,4 @@
 # Cosmos-Portolio 
 
-My portfolio nothing else here
+This is my personal website. Website updates will slowly be added! 
 
