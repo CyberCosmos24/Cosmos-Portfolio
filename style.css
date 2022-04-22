@@ -15,7 +15,7 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #3498DB;
+    --clr-accent: #0F58FF;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -254,4 +254,65 @@ ul li a{
     color: black;
     padding: 5px 20px;
     border: 1px soild;
+
 } 
+.sse{
+	background: #ffffff;
+	width: 100%;
+    display: center;
+    justify-content: center;
+    text-align: center;
+	padding: 100px 0px;
+}
+
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 500px;
+}
+.card{
+	height: 365px;
+	width: 400px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 1px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #0F58FF;
+
+}
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: white;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.card .button{
+	background-color:#0F58FF;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid #0F58FF;
+	cursor: pointer;
+}
