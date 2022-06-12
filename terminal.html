@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script src="https://unpkg.com/jquery.terminal@2.x.x/js/jquery.terminal.min.js"></script>
@@ -18,11 +18,9 @@ $('body').terminal({
     whoami: function () {
         this.echo('root');
     },
-    developer: function () {
-        this.echo('Cosmos');
-    },
+  
     help: function () {
-        this.echo('whoami: who is currently logged on'  + ' \ndeveloper: Developer of this website'+ '\ndistro: My prefered distros of Linux'+ '\ncoding: My experience of programming '+'\ntools: List of tools I use ');
+        this.echo('whoami: who is currently logged on'  + '\ndistro: My prefered distros of Linux'+ '\ncoding: My experience of programming '+'\ntools: List of tools I use ');
     },
     distro: function () {
         this.echo('Debian');
@@ -31,7 +29,7 @@ $('body').terminal({
         this.echo('AWS, Cloudflare, Oracle VM, KeepNote, VSC ');
     },
     coding: function () {
-        this.echo('I have been programming for two years. I know python, c, bash scripting and java.');
+        this.echo('I have been programming for two years.');
     }
 }, {
     greetings: 'Cosmos Console | Type help'

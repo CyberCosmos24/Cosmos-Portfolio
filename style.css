@@ -266,18 +266,18 @@ ul li a{
 }
 
 .box{
-	display: flex;
+	display: inline-block;
 	justify-content: center;
 	align-items: center;
 	min-height: 500px;
 }
 .card{
 	height: 365px;
-	width: 400px;
+	width: 1450px;
 	padding: 20px 35px;
 	background: #191919;
 	border-radius: 20px;
-	margin: 1px;
+	margin: 1em;
 	position: relative;
 	overflow: hidden;
 	text-align: center;
@@ -315,4 +315,20 @@ h5{
 	background-color: transparent;
 	border: 2px solid #0F58FF;
 	cursor: pointer;
+}
+.econs {
+    display: inline-block;
+    text-align: center;
+}
+.contact {
+    display: inline-block;
+    text-align: center;
+    background-color:#0F58FF;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
 }
