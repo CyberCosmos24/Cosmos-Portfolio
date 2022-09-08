@@ -443,3 +443,9 @@ h5{
 	border: 2px solid #0F58FF;
 	cursor: pointer;
 }
+.seclist{
+    float: left;
+    box-sizing: border-box;
+    display:inline;
+    width: 50%;
+  }
