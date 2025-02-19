@@ -445,7 +445,7 @@ h5{
   .dropdown-btn {
     background-color: #000000;
     color: rgb(255, 255, 255);
-    padding: 16px;
+    padding:  5px 20px;
     font-size: 20px;
     border: none;
 }
@@ -473,3 +473,40 @@ h5{
    .dropdown:hover .dropdown-menu {
       display: block;
  }
+
+ .container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+.section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid #00aaff;
+    border-radius: 10px;
+}
+.project img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+.project a {
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.project a:hover {
+    text-decoration: underline;
+}
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.image-gallery img {
+    width: 30%;
+    height: auto;
+    border: 2px solid #00aaff;
+    border-radius: 5px;
+}
