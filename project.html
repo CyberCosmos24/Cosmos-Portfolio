@@ -1,93 +1,102 @@
 <!doctype html>
-
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>https://cosmosportfolio.com/project</title>
-    <meta content="Personal Website for Cosmos" property="og:title"/>
-    <meta content="Cosmos.gif" property="og:image"/>
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://cosmosportfolio.com/project">
-    <meta property="og:site_name" content="Cosmos Projects">
-    <meta property="og:description" content="List of projects I have done.">
-    <meta property="og:title" content="Cosmos Projects">
-    <link rel="shortcut icon" href="Cosmos.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Projects | Ajay Kalra</title>
+  <meta property="og:title" content="Ajay Kalra Projects" />
+  <meta property="og:image" content="Cosmos.gif" />
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cosmosportfolio.com/project">
+  <meta property="og:site_name" content="Cosmos Projects">
+  <meta property="og:description" content="Case studies and highlights from my security and engineering work.">
+  <link rel="shortcut icon" href="Cosmos.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
 
-    <link rel="stylesheet" href="style.css">
-
-
-
-  </head>
- 
+<body>
   <header>
-
-    <button class="btn" aria-label="btn:hover">
-      <span class="hamburger"></span>
-  </button>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="project.html">Projects</a></li>
-      <div class="dropdown">
-        <button class="dropdown-btn">Contact</button>
-        <div class="dropdown-menu">
-        <a href="https://github.com/CyberCosmos24">Github</a>
-        <a href="https://twitter.com/CyberCosmos24">Twitter</a>
-        <a href="https://www.linkedin.com/in/ajay-kalra-589202236/">Linkedln</a>
-        </div>
-      </div>
-    </ul>
-  </nav>
-</header> 
-
-  <body>
-
-
-    <section class="services_section">
-        
-  <div class="container">
-    <div class="row">
-        <div class="col-xl-12 text-center mb-4">
-            <div class="service-title">
-                <h4>Projects</h4>
-            </div>
-        </div>
+    <div class="navbar">
+      <div class="navbar__brand">Ajay Kalra</div>
+      <ul class="navbar__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
     </div>
-    <div class="row">
-        <div class="col-lg-4 col-md-6 text-center mb-3">
-            <div class="service-wrap">
-                <div class="service-icon">
-                    <i class="fas fa-layer-group"></i>
-                </div>
-                <h4>Drexel-CCI-Project</h4>
-                <p>A muti-tool to help you with enumuration. This project is related to the program I took.</p>
-                <a href="drexel.html">View More</a>
-            </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <div class="section__eyebrow">Portfolio</div>
+      <h1 class="section__title">Projects and case studies</h1>
+      <p class="section__lead">A curated collection of recent work, ranging from security engineering to research and tooling. Each project includes context, impact, and links where available.</p>
+    </section>
+
+    <section class="grid">
+      <article class="card project-card">
+        <h3>Drexel CCI Security Toolkit</h3>
+        <p>Built a Python-based toolkit that streamlines reconnaissance, password auditing, and HTTP utilities for the Drexel University Digital Development Camp.</p>
+        <ul class="detail-list">
+          <li>Delivered port scanning, IP lookup, and hash cracking helpers optimized for Debian/WSL.</li>
+          <li>Improved team workflows with documentation and easy-to-run scripts.</li>
+          <li>Supported hands-on labs by bundling common security checks in one toolkit.</li>
+        </ul>
+        <div class="pills">
+          <span class="pill">Python</span>
+          <span class="pill">Security automation</span>
+          <span class="pill">Networking</span>
         </div>
-        <div class="col-lg-4 col-md-6 text-center mb-3">
-            <div class="service-wrap">
-                <div class="service-icon">
-                    <i class="far fa-chart-bar"></i>
-                </div>
-                <h4>Veilock (formerly AstroVPN)</h4>
-                <p>VPN company I have worked/used with.</p>
-                <a href="astrovpn.html">View More</a>
-            </div>
+        <div class="links" style="margin-top: 14px;">
+          <a class="btn btn--ghost" href="drexel.html">Read more</a>
+          <a class="btn btn--primary" href="https://github.com/CyberCosmos24/Drexel-CCI-Project" target="_blank">GitHub</a>
         </div>
-        <div class="col-lg-4 col-md-6 text-center mb-3">
-            <div class="service-wrap">
-                <div class="service-icon">
-                    <i class="fas fa-database"></i>
-                </div>
-                <h4>Coming Soon!</h4>
-                <p></p>
-                <a href="">view More</a>
-            </div>
+      </article>
+
+      <article class="card project-card">
+        <h3>Veilock (formerly AstroVPN)</h3>
+        <p>Security intern work for a next-gen VPN provider with a focus on threat detection, privacy, and resilient network performance.</p>
+        <ul class="detail-list">
+          <li>Worked with SIEM tooling to tune alerts and surface actionable insights.</li>
+          <li>Conducted vulnerability assessments and improved incident response playbooks.</li>
+          <li>Contributed to user-facing security recommendations and policy updates.</li>
+        </ul>
+        <div class="pills">
+          <span class="pill">Security intern</span>
+          <span class="pill">SIEM</span>
+          <span class="pill">Incident response</span>
         </div>
- 
-</div>
-</section>
+        <div class="links" style="margin-top: 14px;">
+          <a class="btn btn--ghost" href="astrovpn.html">Project summary</a>
+          <a class="btn btn--primary" href="https://veilock.com/" target="_blank">Visit Veilock</a>
+        </div>
+      </article>
+
+      <article class="card project-card">
+        <h3>Emerging research &amp; learning</h3>
+        <p>Ongoing exploration of secure cloud patterns, detection engineering, and privacy-first design—all aimed at keeping teams informed and ready.</p>
+        <ul class="detail-list">
+          <li>Experimenting with detection rules and log pipelines for modern SIEM stacks.</li>
+          <li>Documenting playbooks that balance usability with strong security defaults.</li>
+          <li>Building repeatable checklists for threat modeling and risk reviews.</li>
+        </ul>
+        <div class="pills">
+          <span class="pill">Cloud security</span>
+          <span class="pill">Detection engineering</span>
+          <span class="pill">Documentation</span>
+        </div>
+        <div class="links" style="margin-top: 14px;">
+          <a class="btn btn--ghost" href="mailto:cosmos@cosmosportfolio.com">Collaborate with me</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      Designed and built by Ajay Kalra · Security &amp; reliability focused.
+    </div>
+  </footer>
 </body>
 </html>

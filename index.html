@@ -1,62 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="style.css">
-        <link rel="shortcut icon" href="Cosmos.ico">
-        <title>https://cosmosportfolio.com/</title>
-        <meta content="Personal Website for Cosmos" property="og:title"/>
-        <meta content="Cosmos.gif" property="og:image"/>
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://cosmosportfolio.com">
-        <meta property="og:site_name" content="Cosmos Portfolio">
-        <meta property="og:description" content="Security Enthusiast">
-        <meta property="og:title" content="Cosmos Portfolio">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="Cosmos.ico">
+  <title>Ajay Kalra | Security Portfolio</title>
+  <meta property="og:title" content="Ajay Kalra Portfolio">
+  <meta property="og:image" content="Cosmos.gif">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cosmosportfolio.com">
+  <meta property="og:site_name" content="Cosmos Portfolio">
+  <meta property="og:description" content="Cybersecurity student building resilient, user-focused solutions.">
+</head>
 
-    
-    </head>
-
-    <header>
-
-      <button class="btn" aria-label="btn:hover">
-          <span class="hamburger"></span>
-      </button>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="project.html">Projects</a></li>
-          <div class="dropdown">
-            <button class="dropdown-btn">Contact</button>
-            <div class="dropdown-menu">
-            <a href="https://github.com/CyberCosmos24">Github</a>
-            <a href="https://twitter.com/CyberCosmos24">Twitter</a>
-            <a href="https://www.linkedin.com/in/ajay-kalra-589202236/">Linkedln</a>
-            </div>
-          </div>
-      
-        </ul>
-      </nav>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="navbar__brand">Ajay Kalra</div>
+      <ul class="navbar__links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
   </header>
 
-    <body>
-        <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-               Welcome to <strong>Ajay Kalra Portfolio</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro"> Cybersecurity Student | 20 </p>
-            <img src="images/pic.png" alt="" class="intro__img">
-        </section>
-        
-        
-    
-        
-        
-        
+  <main class="container">
+    <section class="hero" id="home">
+      <div>
+        <div class="hero__badge">Cybersecurity Student · Builder</div>
+        <h1 class="hero__title">Security-focused development with a people-first mindset.</h1>
+        <p class="hero__subtitle">I’m Ajay Kalra, a cybersecurity student who enjoys combining secure engineering, thoughtful UX, and clear communication to deliver solutions that protect users without slowing them down.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="project.html">View my projects</a>
+          <a class="btn btn--ghost" href="https://www.linkedin.com/in/ajay-kalra-589202236/" target="_blank">Connect on LinkedIn</a>
+        </div>
+      </div>
+      <div class="card">
+        <p class="tagline">Currently exploring threat detection, security tooling, and privacy-first network solutions.</p>
+        <ul class="detail-list">
+          <li>Learning paths: AI, SIEM workflows, security automation.</li>
+          <li>Strengths: cross-functional collaboration, clear reporting, and hands-on testing.</li>
+          <li>Location: Pennsylvania, USA · Open to remote opportunities.</li>
+        </ul>
+      </div>
+    </section>
 
+    <section id="about">
+      <div class="section__eyebrow">About</div>
+      <h2 class="section__title">Security, reliability, and clear storytelling.</h2>
+      <p class="section__lead">I enjoy partnering with teams to build secure products that users trust. From documenting playbooks to refining incident response, I lean on curiosity and disciplined testing to make decisions rooted in data and empathy.</p>
+      <div class="split" style="margin-top: 24px;">
+        <div class="card">
+          <h3>Highlights</h3>
+            <ul class="detail-list">
+              <li>Hands-on experience with SIEM tuning, log analysis, and vulnerability assessments.</li>
+              <li>Built security tooling for reconnaissance, password auditing, and HTTP utilities.</li>
+              <li>Collaborated with engineers to design incident response improvements and security reports.</li>
+              <li>Awards: SkillsUSA District 2 Cybersecurity (1st place); SkillsUSA Member of the Year – DCIS Aston Campus.</li>
+            </ul>
+          </div>
+        <div class="card">
+          <h3>Skills</h3>
+          <div class="pills">
+            <span class="pill">System administration (Ubuntu, Windows Server, macOS)</span>
+            <span class="pill">Microsoft 365 &amp; Teams</span>
+            <span class="pill">Cloudflare (DNS &amp; Zero Trust)</span>
+            <span class="pill">AWS (EC2/S3)</span>
+            <span class="pill">SIEM/SIRP &amp; vulnerability research</span>
+            <span class="pill">Docker &amp; security automation</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section id="projects">
+      <div class="section__eyebrow">Featured work</div>
+      <h2 class="section__title">Projects I’m proud of</h2>
+      <p class="section__lead">A snapshot of the security, infrastructure, and research efforts I’ve contributed to. Visit the projects page for more detail.</p>
+      <div class="grid" style="margin-top: 24px;">
+        <div class="card project-card">
+          <h3>Drexel CCI Security Toolkit</h3>
+          <p>Developed a Python toolkit with port scanning, password auditing, and HTTP utilities to streamline camp projects and hands-on security exercises.</p>
+          <div class="pills">
+            <span class="pill">Python</span>
+            <span class="pill">Recon</span>
+            <span class="pill">Automation</span>
+          </div>
+          <div class="links" style="margin-top: 14px;">
+            <a class="btn btn--ghost" href="drexel.html">Read case study</a>
+            <a class="btn btn--primary" href="https://github.com/CyberCosmos24/Drexel-CCI-Project" target="_blank">View on GitHub</a>
+          </div>
+        </div>
+        <div class="card project-card">
+          <h3>Veilock (formerly AstroVPN)</h3>
+          <p>Security intern focused on threat detection, SIEM monitoring, and policy development to keep global VPN users safe without sacrificing performance.</p>
+          <div class="pills">
+            <span class="pill">Security intern</span>
+            <span class="pill">SIEM</span>
+            <span class="pill">Incident response</span>
+          </div>
+          <div class="links" style="margin-top: 14px;">
+            <a class="btn btn--ghost" href="astrovpn.html">Project summary</a>
+            <a class="btn btn--primary" href="https://veilock.com/" target="_blank">Visit Veilock</a>
+          </div>
+        </div>
+        <div class="card project-card">
+          <h3>Portfolio refresh</h3>
+          <p>This site—the central hub for my work, learnings, and ways to collaborate. Built with clarity and accessibility in mind.</p>
+          <div class="pills">
+            <span class="pill">HTML/CSS</span>
+            <span class="pill">Content design</span>
+            <span class="pill">Accessibility</span>
+          </div>
+          <div class="links" style="margin-top: 14px;">
+            <a class="btn btn--ghost" href="#contact">Say hello</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-       
+    <section id="contact">
+      <div class="section__eyebrow">Contact</div>
+      <h2 class="section__title">Let’s connect</h2>
+      <p class="section__lead">Interested in security collaborations, internships, or research? I’m always excited to learn from new teams and tackle meaningful problems.</p>
+      <div class="hero__actions" style="margin-top: 18px;">
+        <a class="btn btn--primary" href="mailto:cosmos@cosmosportfolio.com">Email me</a>
+        <a class="btn btn--ghost" href="https://github.com/CyberCosmos24" target="_blank">GitHub</a>
+        <a class="btn btn--ghost" href="https://www.linkedin.com/in/ajay-kalra-589202236/" target="_blank">LinkedIn</a>
+      </div>
+    </section>
+  </main>
 
-    </body>
+  <footer class="footer">
+    <div class="container">
+      Designed and built by Ajay Kalra · Security &amp; reliability focused.
+    </div>
+  </footer>
+</body>
 </html>
