@@ -1,69 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="style.css">
-        <link rel="shortcut icon" href="Cosmos.ico">
-        <title>https://cosmosportfolio.com/</title>
-        <meta content="Personal Website for Cosmos" property="og:title"/>
-        <meta content="Cosmos.gif" property="og:image"/>
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://cosmosportfolio.com">
-        <meta property="og:site_name" content="Cosmos Portfolio">
-        <meta property="og:description" content="Security Enthusiast">
-        <meta property="og:title" content="Cosmos Portfolio">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="Cosmos.ico">
+  <title>Drexel CCI Project | Ajay Kalra</title>
+  <meta property="og:title" content="Drexel CCI Security Toolkit"/>
+  <meta property="og:image" content="Cosmos.gif"/>
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cosmosportfolio.com/drexel">
+  <meta property="og:site_name" content="Cosmos Portfolio">
+  <meta property="og:description" content="Cybersecurity toolkit and learnings from the Drexel University Digital Development Camp.">
+</head>
 
-    
-    </head>
-
-    <header>
-
-      <button class="btn" aria-label="btn:hover">
-          <span class="hamburger"></span>
-      </button>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="project.html">Projects</a></li>
-          <div class="dropdown">
-            <button class="dropdown-btn">Contact</button>
-            <div class="dropdown-menu">
-            <a href="https://github.com/CyberCosmos24">Github</a>
-            <a href="https://twitter.com/CyberCosmos24">Twitter</a>
-            <a href="https://www.linkedin.com/in/ajay-kalra-589202236/">Linkedln</a>
-            </div>
-          </div>
-      
-        </ul>
-      </nav>
-  </header>
-  <body>
-  
-    <div class="container">
-        <div class="section" id="project-section">
-            <h2>Drexel University Digital Development Camp</h2>
-            <p>The Drexel University College of Computing & Informatics (CCI) Summer Program is an immersive experience designed for high school and college students interested in technology, coding, and cybersecurity.
-             The program provides hands-on learning opportunities in areas such as software development, artificial intelligence, and ethical hacking.</p>
-             &nbsp;
-             <div class="image-gallery">
-                <img src="images/card.png" alt="Project Image 1">
-                <img src="images/cert.png" alt="Project Image 2">
-                <img src="images/IMG_0215.jpg" alt="Project Image 3">
-            </div>
-        </div>
-        <div class="section" id="projects">
-            <h2>Projects</h2>
-            &nbsp;
-            <div class="project">
-                <h3>Drexel CCI Summer Project</h3>
-                &nbsp;
-                <p>Developed a comprehensive cybersecurity toolkit as part of Drexel University’s Digital Development Camp. This group project focused on enhancing security testing and analysis capabilities. Key features include a port scanner, IP lookup, password and hash crackers, and HTTP request utilities. 
-                    Built in Python and optimized for Debian OS and WSL environments, the toolkit provides essential security tools for penetration testing and network gathering.
-                    </p>
-                <a href="https://github.com/CyberCosmos24/Drexel-CCI-Project" target="_blank">GitHub</a>
-            </div>
-        </div>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="navbar__brand">Ajay Kalra</div>
+      <ul class="navbar__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
     </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <div class="section__eyebrow">Case study</div>
+      <h1 class="section__title">Drexel University Digital Development Camp</h1>
+      <p class="section__lead">Built a collaborative security toolkit and deepened my understanding of threat modeling, network security, and team communication.</p>
+    </section>
+
+    <section class="split">
+      <div class="card">
+        <h3>Project overview</h3>
+        <p class="tagline">Created a Python toolkit that packages reconnaissance, password auditing, and HTTP utilities into a single, easy-to-run resource.</p>
+        <ul class="detail-list">
+          <li>Port scanner, IP lookup, and hash/password crackers tailored for Debian and WSL.</li>
+          <li>Wrote clear usage guides to help teammates adopt the toolkit quickly.</li>
+          <li>Integrated HTTP request helpers to support web testing exercises.</li>
+        </ul>
+        <div class="pills">
+          <span class="pill">Python</span>
+          <span class="pill">Recon</span>
+          <span class="pill">Automation</span>
+          <span class="pill">Collaboration</span>
+        </div>
+        <div class="links" style="margin-top: 14px;">
+          <a class="btn btn--primary" href="https://github.com/CyberCosmos24/Drexel-CCI-Project" target="_blank">GitHub</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>What I learned</h3>
+        <ul class="detail-list">
+          <li>How to design scripts that are reliable across environments and easy to debug.</li>
+          <li>Why concise documentation matters for onboarding and collaboration.</li>
+          <li>How to prioritize security features that provide real value for hands-on labs.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div class="section__eyebrow">Gallery</div>
+      <div class="gallery">
+        <img src="images/card.png" alt="Drexel camp ID card">
+        <img src="images/cert.png" alt="Certificate from the Drexel program">
+        <img src="images/IMG_0215.jpg" alt="Workshop photo from the Drexel camp">
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      Designed and built by Ajay Kalra 
+    </div>
+  </footer>
 </body>
-    </html>
+</html>
