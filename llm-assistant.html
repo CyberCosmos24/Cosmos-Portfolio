@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="Cosmos.ico">
+  <title>LLM Security Log Assistant | Ajay Kalra</title>
+
+  <!-- SEO / Open Graph -->
+  <meta property="og:title" content="LLM Security Log Assistant"/>
+  <meta property="og:image" content="Cosmos.gif"/>
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cosmosportfolio.com/llm-assistant">
+  <meta property="og:site_name" content="Cosmos Portfolio">
+  <meta property="og:description" content="A local cybersecurity assistant that analyzes Cloudflare and Wazuh logs using a self-hosted LLM.">
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="navbar__brand">Ajay Kalra</div>
+      <ul class="navbar__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Title / Intro -->
+    <section>
+      <div class="section__eyebrow">Case study</div>
+      <h1 class="section__title">LLM Security Log Assistant</h1>
+      <p class="section__lead">
+        A self-hosted log analysis assistant that pulls Cloudflare and Wazuh security events, normalizes them, 
+        and uses a local LLaMA model to generate human-readable threat insights.
+      </p>
+    </section>
+
+    <section class="split">
+  
+      <div class="card">
+        <h3>Project overview</h3>
+        <p class="tagline">
+          Built a Python CLI and log-analysis pipeline leveraging LLaMA 3.1 to act as a junior SOC analyst for security events.
+        </p>
+        <ul class="detail-list">
+          <li>Developed API integrations to pull Cloudflare and Wazuh alerts into a unified JSONL format.</li>
+          <li>Designed LLM prompts to classify events, summarize threats, and recommend remediation steps.</li>
+          <li>Implemented a modular architecture for adding new data sources and analysis logic.</li>
+          <li>Created a CLI workflow to fetch logs, store them, and run automated analysis end-to-end.</li>
+        </ul>
+
+        <div class="pills">
+          <span class="pill">Python</span>
+          <span class="pill">LLM</span>
+          <span class="pill">Cloudflare</span>
+          <span class="pill">Wazuh</span>
+          <span class="pill">Security automation</span>
+        </div>
+
+        <div class="links" style="margin-top: 14px;">
+          <a class="btn btn--primary" href="https://github.com/CyberCosmos24/llm-assistant" target="_blank">GitHub</a>
+        </div>
+      </div>
+
+      
+      <div class="card">
+        <h3>What I learned</h3>
+        <ul class="detail-list">
+          <li>How to integrate multiple security data sources into a consistent analysis pipeline.</li>
+          <li>How to prompt-engineer LLMs to provide actionable insights, not just summaries.</li>
+          <li>The importance of parsing, normalizing, and cleaning log data before model inference.</li>
+          <li>How to design CLI tools that are modular, reliable, and maintainable.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Gallery section -->
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      Designed and built by Ajay Kalra
+    </div>
+  </footer>
+</body>
+</html>

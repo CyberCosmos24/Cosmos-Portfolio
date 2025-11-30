@@ -72,6 +72,32 @@
           <a class="btn btn--primary" href="https://veilock.com/" target="_blank">Visit Veilock</a>
         </div>
       </article>
+<article class="card project-card">
+  <h3>LLM Security Log Assistant</h3>
+  <p>
+    Local cybersecurity assistant that uses a self-hosted LLM to analyze Cloudflare and Wazuh logs,
+    triage events, and generate human-readable security summaries.
+  </p>
+  <ul class="detail-list">
+    <li>Built a Python CLI that pulls Cloudflare and Wazuh alerts via API and normalizes them into a common format.</li>
+    <li>Integrated a local LLaMA 3.1 model (via Ollama) to explain events, rate severity, and suggest remediation steps.</li>
+    <li>Designed prompts and workflows so the tool can act like a junior SOC analyst for log review and incident triage.</li>
+  </ul>
+  <div class="pills">
+    <span class="pill">Python</span>
+    <span class="pill">LLM</span>
+    <span class="pill">Cloudflare &amp; Wazuh</span>
+    <span class="pill">Security automation</span>
+  </div>
+  <div class="links" style="margin-top: 14px;">
+    <!-- internal project write-up page on your portfolio -->
+    <a class="btn btn--ghost" href="llm-assistant.html">Project summary</a>
+    <!-- GitHub repo -->
+    <a class="btn btn--primary" href="https://github.com/CyberCosmos24/llm-assistant" target="_blank">
+      View on GitHub
+    </a>
+  </div>
+</article>
     </section>
   </main>
 
