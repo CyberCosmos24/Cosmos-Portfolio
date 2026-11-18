@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  --bg: #0b1021;
-  --panel: #111833;
-  --muted: #d2d6e3;
-  --text: #e8ecf5;
-  --accent: #5dd0e1;
-  --accent-strong: #7b5dfa;
+  --bg: #111318;
+  --panel: #1D222B;
+  --muted: #B7C0CB;
+  --text: #F1F3F5;
+  --accent: #8B99AA;
+  --accent-strong: #AAB5C3;
   --border: rgba(255, 255, 255, 0.08);
   --shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
   --radius: 14px;
@@ -20,7 +20,7 @@
 
 body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  background: linear-gradient(135deg, var(--bg), #0f1530 35%, #0a0f24);
+  background: var(--bg);
   color: var(--text);
   line-height: 1.6;
   min-height: 100vh;
@@ -46,7 +46,7 @@ header {
   top: 0;
   z-index: 10;
   backdrop-filter: blur(10px);
-  background: rgba(11, 16, 33, 0.6);
+  background: rgba(17, 19, 24, 0.94);
   border-bottom: 1px solid var(--border);
 }
 
@@ -125,7 +125,7 @@ section {
   gap: 8px;
   padding: 8px 14px;
   border-radius: 999px;
-  background: rgba(93, 208, 225, 0.12);
+  background: rgba(139, 153, 170, 0.13);
   color: var(--accent);
   font-weight: 600;
   margin-bottom: 14px;
@@ -159,8 +159,8 @@ section {
 }
 
 .btn--primary {
-  background: linear-gradient(120deg, var(--accent), var(--accent-strong));
-  color: #0a0f24;
+  background: var(--accent);
+  color: #111318;
   box-shadow: var(--shadow);
 }
 
@@ -270,3 +270,6 @@ section {
     width: 100%;
   }
 }
+
+/* Approved portfolio redesign components */
+.section__paragraph{margin-top:18px}.card h3{margin-bottom:10px}.card p{color:var(--muted)}.subheading{margin:34px 0 16px}.meta{color:var(--accent)!important;font-size:.9rem;margin-bottom:8px}.timeline{display:grid;gap:16px;border-left:2px solid var(--accent);padding-left:20px}.timeline .card{position:relative}.timeline .card:before{content:"";position:absolute;left:-28px;top:28px;width:12px;height:12px;border-radius:50%;background:var(--accent)}.section__lead{line-height:1.8}a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}@media(max-width:700px){.navbar{flex-wrap:wrap;gap:12px}.navbar__links{flex-wrap:wrap;gap:4px}.navbar__links a{padding:7px 9px}section{padding:48px 0}.hero{grid-template-columns:minmax(0,1fr)}}
